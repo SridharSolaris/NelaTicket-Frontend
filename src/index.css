@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-prev,
+.slick-prev::before {
+    left: 3% !important;
+    z-index: 1;
+    background-color: lightblue !important;
+    color: darkblue !important;
+    border-radius: 25px;
+}
+
+.slick-next,
+.slick-next::before {
+    right: 3% !important;
+    z-index: 1;
+    background-color: lightblue !important;
+    color: darkblue !important;
+    border-radius: 25px;
+
+}
