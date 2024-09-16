@@ -23,12 +23,13 @@
     "react-slick": "^0.29.0",
     "react-toastify": "^9.1.3",
     "slick-carousel": "^1.8.1",
+    "tailwind-css": "file:",
     "web-vitals": "^2.1.4",
     "yup": "^1.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
